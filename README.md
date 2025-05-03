@@ -9,6 +9,8 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
 ---
 
 ## 🌐 Live Demo
+![Form Screenshot](Screenshot(211).png)
+
 
 👉 [Click here to access the form](https://obi2.kean.edu/~pennal@kean.edu/CPS3525/project1.html)
 
