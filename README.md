@@ -2,11 +2,15 @@
 
 ## 🔍 Project Overview
 
-This project is part of **CPS 3525 - Internet Programming** and demonstrates the use of **C++** with **CGI** to process an HTML web form using the **GET** method. The application was hosted and tested on the [OBI server](https://yoda.kean.edu/cgi-bin/) provided by Kean University.
+This project is part of my **CPS 3525 - Programming in Unix/Linux Environment** and it demonstrates the use of **C++** with **CGI** to process an HTML web form using the **GET** method. The application was hosted and tested on the [OBI server] provided by Kean University.
 
 The web form takes user input and sends it to a C++ backend, which performs input validation, string analysis, and displays meaningful output or error messages directly in the browser.
 
 ---
+
+## 🌐 Live Demo
+
+👉 [Click here to access the form](https://obi2.kean.edu/~pennal@kean.edu/CPS3525/project1.html)
 
 ## 🌐 Features
 
@@ -31,8 +35,3 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
 
 ## 💻 How to Run (on OBI Server)
 
-1. Upload all source files to the `cgi-bin/CPS3525/` directory of your OBI server space via SFTP.
-2. Ensure that the C++ file is compiled for CGI:
-   ```bash
-   g++ -o project1.cgi project1.cpp
-   chmod 755 project1.cgi
