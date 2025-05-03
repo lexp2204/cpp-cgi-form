@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexis Penn</title>
+</head>
+<body>
+    <p>Welcome to Alexis Penn CPS 3525 project</p>
+    <form action="/~pennal@kean.edu/cgi-bin/pennal_Project1" method="get">
+        <!--User Name input-->
+        <label for="name">User Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <!--Gender selection-->
+        <label>Gender:</label>
+        <input type="radio" id="M" name="gender" value="M" required>
+        <label for="M">M</label>
+        <input type="radio" id="F" name="gender" value="F">
+        <label for="F">F</label><br>
+
+        <!--Age input -->
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+        
+        <!--Birthday input-->
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br>
+
+        <!--Courses taken checkboxes-->
+        <label>Taken courses: </label>
+
+        <input type="checkbox" id="CPS1231" name="CPS1231" value="CPS1231">
+        <label for="CPS1231">CPS1231</label>
+
+        <input type="checkbox" id="CPS2231" name="CPS2231" value="CPS2231">
+        <label for="CPS2231">CPS2231</label>
+
+        <input type="checkbox" id="CPS2232" name="CPS2232" value="CPS2232">
+        <label for="CPS2232">CPS2232</label>
+
+        <input type="checkbox" id="CPS3250" name="CPS3250" value="CPS3250"> 
+        <label for="CPS3250">CPS3250</label><br>
+
+        <!--Select township-->
+        <label for="town">Select township:</label>
+        <select name="town" id="town" required>
+            <option value="blank"></option>
+            <option value="Union">Union</option>
+            <option value="Newark">Newark</option>
+            <option value="Edison">Edison</option>
+            <option value="Harrison">Harrison</option>
+        </select><br>
+
+        <!--text input and submit button-->
+        <label>Paste a string contains upto 40 letters A-Z, a-z: </label><br>
+        <input type="text" name="mydata" size="40" pattern="[A-Za-z]{1,40}" required>
+        <input type="submit" value="Submit">
+
+        
+
+    </form>
+</body>
+</html>
