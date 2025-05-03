@@ -12,9 +12,8 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
 
 👉 [Click here to access the form](https://obi2.kean.edu/~pennal@kean.edu/CPS3525/project1.html)
 
-## 🌐 Features
-
-- HTML form with the following inputs:
+## 📌 Features
+✅HTML form with the following inputs:
   - Text input for **Name** (`name`)
   - Radio buttons for **Gender** (`gender`) – options: `M` or `F`
   - Number input for **Age** (`age`) – must be integer between 1–99
@@ -23,16 +22,16 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
   - Dropdown for **Town** (`town`) – options: Union, Newark, Edison, Harrison
   - Text input for **String Analysis** (`mydata`)
   
-- Server-side processing in **C++**
+✅Server-side processing in **C++**
   
-- Input validation with user-friendly error messages in red
+✅ Input validation with user-friendly error messages in red
   
-- Output includes:
+✅Output includes:
   - Display of all entered values
   - Character frequency analysis (ASCII sorted)
   - Detection of characters with max and min frequency
   - Age cross-check from birthday against entered age
-- All output and errors rendered in one page
+✅ All output and errors rendered in one page
 
 ---
 
