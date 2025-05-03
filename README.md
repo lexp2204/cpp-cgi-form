@@ -22,8 +22,11 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
   - Four checkboxes for courses (`CPS1231`, `CPS2231`, `CPS2232`, `CPS3250`)
   - Dropdown for **Town** (`town`) – options: Union, Newark, Edison, Harrison
   - Text input for **String Analysis** (`mydata`)
+  
 - Server-side processing in **C++**
+  
 - Input validation with user-friendly error messages in red
+  
 - Output includes:
   - Display of all entered values
   - Character frequency analysis (ASCII sorted)
