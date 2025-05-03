@@ -31,6 +31,7 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
   - Character frequency analysis (ASCII sorted)
   - Detection of characters with max and min frequency
   - Age cross-check from birthday against entered age
+    
 ✅ All output and errors rendered in one page
 
 ---
