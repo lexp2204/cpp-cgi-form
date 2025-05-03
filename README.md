@@ -35,4 +35,21 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
 
 ---
 
+## 🛠️ Technologies Used  
+- C++ – for backend CGI processing and logic  
+- CGI(Common Gateway Interface) – to interface between HTML form and C++ backend
+- HTML5 – to build the front-end form interface
+- UNIX (OBI Server) – deployment environment (Kean University's OBI server)
+- Apache Web Server (OBI2) – for hosting and executing the CGI script
+  
+---
+
+## 📈 Future Improvements  
+🔹 Add more styling
+
+---
+
+## 🌟 Show Your Support  
+⭐ If you like this project, **give it a star** on GitHub!   
+
 
