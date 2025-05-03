@@ -33,5 +33,4 @@ The web form takes user input and sends it to a C++ backend, which performs inpu
 
 ---
 
-## 💻 How to Run (on OBI Server)
 
